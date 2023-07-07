@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../X-imagens/mapa.jpg");
+    background-size: cover;
+    font-family: 'arial', sans-serif;
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    height: 78vh;
+    width: 44vh;
+    align-items: center;
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: rgb( 255, 255, 255, 0.3);;
+    transition: all 0.2s ease;
+    font-family: 'arial', sans-serif;
+    }
+  
+    .container:hover {
+      width: 48vh;
+      height: 84vh;
+      background-color: rgb( 255, 255, 255, 0.8);
+      box-shadow: 40px 30px 2px rgba(0, 0, 0, 0.9);
+    }
+  
+  input {
+      width: 260px;
+      padding: 15px;
+      background-color: transparent;
+      text-align: left;
+      align-items: center;
+      box-sizing: border-box;
+      border: 3px solid #000000;
+      border-radius: 10px;
+      }
+    
+      input:focus {
+        border-color: rgb(0, 0, 0);
+     
+      }
+  
+   fieldset {
+      width: 280px;
+      padding: 26px;
+      text-align: left;
+      align-items: center;
+      border: 2px solid #000000;
+      border-radius: 10px;
+    }
+    
+      ::placeholder {
+        color: black;
+        text-align: left;
+      }
+  
+      button {
+        width: 90px;
+        height: 30px;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        background: cover;
+      }
+      
+      button:hover {
+        width: 100px;
+        color: rgb(0, 0, 0);
+        background-color: transparent;        
+      }
+  
+  .social-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .gmail-btn {
+    background-color: #dd4b39;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+  }
+  
+  .facebook-btn {
+    background-color: #3b5998;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+  }
+  
+  .social-btn:hover {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  hr {
+    border-color: black;
+  }
+
+  a {
+    color: rgb(0, 0, 0);
+  }
