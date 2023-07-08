@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     height: 78vh;
-    width: 44vh;
+    width: 58vh;
     align-items: center;
     text-align: center;
     border-color: rgb(0, 0, 0);
@@ -28,15 +28,15 @@ body {
     }
   
     .container:hover {
-      width: 48vh;
-      height: 84vh;
-      background-color: rgb( 255, 255, 255, 0.6);
+      width: 62vh;
+      height: 80vh;
+      background-color: rgb( 255, 255, 255, 0.7);
       box-shadow: 40px 40px 2px rgba(0, 0, 0, 0.9);
     }
   
   input {
-      width: 260px;
-      padding: 15px;
+      width: 44vh;
+      height: 8vh;
       background-color: transparent;
       text-align: left;
       align-items: center;
@@ -51,8 +51,8 @@ body {
       }
   
    fieldset {
-      width: 280px;
-      padding: 26px;
+      width: 48vh;
+      height: 24vh;
       text-align: left;
       align-items: center;
       border: 2px solid #000000;
