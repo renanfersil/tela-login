@@ -1,2 +1,8 @@
 # Tela-de-login
- Interface de tela de login com links de direcionamento
+- Interface de tela de login com direcionamento
+
+## Tecnologias utilizada:
+- HTML
+- CSS
+
+Link ao vivo: https://renanfersil.github.io/Tela-de-login/
