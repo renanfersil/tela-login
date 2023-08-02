@@ -3,7 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url("../Imagens/mapa.jpg");
+    background-image: url("/Imagens/cod.jpg");
     background-size: cover;
     font-family: 'arial', sans-serif;
   }
