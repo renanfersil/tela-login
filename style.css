@@ -3,7 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url("./Imagens/cod.jpg");
+    background-image: url("../Imagens/mapa.jpg");
     background-size: cover;
     font-family: 'arial', sans-serif;
   }
@@ -15,27 +15,28 @@ body {
   .container {
     display: flex;
     justify-content: center;
-    height: 70%;
-    width: 30%;
+    height: 78vh;
+    width: 44vh;
     align-items: center;
     text-align: center;
     border-color: rgb(0, 0, 0);
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(0, 0, 0);
-    background-color: rgb( 255, 255, 255, 0.1);
+    background-color: rgb( 255, 255, 255, 0.3);;
     transition: all 0.2s ease;
     font-family: 'arial', sans-serif;
     }
   
     .container:hover {
-      width: 32%;
-      height: 74%;
-      background-color: rgb( 255, 255, 255, 0.7);
-      box-shadow: 40px 40px 2px rgba(0, 0, 0, 0.9);
+      width: 48vh;
+      height: 84vh;
+      background-color: rgb( 255, 255, 255, 0.8);
+      box-shadow: 40px 30px 2px rgba(0, 0, 0, 0.9);
     }
   
   input {
-      width: 90%;
+      width: 260px;
+      padding: 15px;
       background-color: transparent;
       text-align: left;
       align-items: center;
@@ -44,12 +45,14 @@ body {
       border-radius: 10px;
       }
     
-  input:focus {
-      border-color: rgb(0, 0, 0);
+      input:focus {
+        border-color: rgb(0, 0, 0);
+     
       }
   
    fieldset {
-      width: 90%;
+      width: 280px;
+      padding: 26px;
       text-align: left;
       align-items: center;
       border: 2px solid #000000;
@@ -77,8 +80,7 @@ body {
       button:hover {
         width: 100px;
         color: rgb(0, 0, 0);
-        background-color: white;       
-        box-shadow: 0 0 40px rgb(0, 0, 0); 
+        background-color: transparent;        
       }
   
   .social-btn {
