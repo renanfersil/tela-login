@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   </head>
-  <body onload="validate()">
+  <body onload="validar()">
     <div class="container">
         <form class="login">
           <h1>ACESSO DO CLIENTE</h1>
@@ -14,12 +14,12 @@
             <legend>USUÁRIO / SENHA</legend>
           <div class="login__field">
             <i class="login__icon fas fa-user"></i>
-            <input type="text" class="login__input" placeholder="Digite o seu usuário">
+            <input type="text" class="login__input" id="username" placeholder="Digite o seu usuário">
           </div>
           <br>
           <div class="login__field">
             <i class="login__icon fas fa-lock"></i>
-            <input type="password" class="login__input" placeholder="Digite a sua senha">
+            <input type="password" class="login__input" id="password" placeholder="Digite a sua senha">
           </div>
         </fieldset>
           <br>

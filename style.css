@@ -15,7 +15,7 @@ body {
   .container {
     display: flex;
     justify-content: center;
-    height: 78%;
+    height: 70%;
     width: 32%;
     align-items: center;
     text-align: center;
@@ -27,8 +27,8 @@ body {
     }
   
     .container:hover {
-      width: 36%;
-      height: 80%;
+      width: 33%;
+      height: 71%;
       background-color: rgb( 255, 255, 255, 0.8);
       box-shadow: 30px 30px 2px rgba(0, 0, 0, 0.9);
     }
