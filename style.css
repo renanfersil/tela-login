@@ -3,9 +3,10 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url("/Imagens/cod.jpg");
+    background-image: url("./Imagens/cod.jpg");
     background-size: cover;
     font-family: 'arial', sans-serif;
+    font: ;
   }
   
   h1 {
@@ -51,7 +52,7 @@ body {
   
    fieldset {
       width: 280px;
-      padding: 26px;
+      padding: 30px;
       text-align: left;
       align-items: center;
       border: 2px solid #000000;
