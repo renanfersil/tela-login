@@ -16,8 +16,8 @@ body {
   .container {
     display: flex;
     justify-content: center;
-    height: 70%;
-    width: 32%;
+    height: 60%;
+    width: 40%;
     align-items: center;
     text-align: center;
     border-color: rgb(0, 0, 0);
@@ -28,10 +28,10 @@ body {
     }
   
     .container:hover {
-      width: 33%;
-      height: 71%;
+      width: 41%;
+      height: 61%;
       background-color: rgb( 255, 255, 255, 0.8);
-      box-shadow: 30px 30px 2px rgba(0, 0, 0, 0.9);
+      box-shadow: 20px 20px 2px rgba(0, 0, 0, 0.9);
     }
   
   input {
@@ -65,7 +65,7 @@ body {
       }
   
       button {
-        width: 80px;
+        width: 120px;
         height: 44px;
         background-color: black;
         color: rgb(255, 255, 255);
@@ -78,7 +78,7 @@ body {
       }
       
       button:hover {
-        width: 100px;
+        width: 150px;
         color: rgb(0, 0, 0);
         background-color: transparent;        
       }
@@ -110,17 +110,26 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
+  header {
+      position: absolute;
+      top: 0;
+      padding: 50px;
+      text-align: center;
+      font: normal 12pt Arial;
+      width: 100vh;
+  }
+
   footer {
     position: absolute;
     bottom: 0;
-    width: 99%;
+    width: 100vh;
     height: 50px;
     text-align: center;
     font-style: italic;
   }
   
   hr {
-    border-color: black;
+    border: 1px solid #000000;
   }
 
   a {
