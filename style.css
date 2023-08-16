@@ -52,7 +52,7 @@ body {
   
    fieldset {
       width: 280px;
-      padding: 30px;
+      padding: 20px;
       text-align: left;
       align-items: center;
       border: 1px solid #000000;
@@ -75,6 +75,7 @@ body {
         cursor: pointer;
         transition: all 0.2s ease;
         background: cover;
+        font: normal 12pt Arial;
       }
       
       button:hover {
@@ -126,12 +127,18 @@ body {
     height: 50px;
     text-align: center;
     font-style: italic;
+    font-weight: bold;
   }
   
   hr {
     border: 1px solid #000000;
+    margin:0;
   }
 
   a {
     color: rgb(0, 0, 0);
+  }
+
+  legend {
+    font-weight: bold;
   }
